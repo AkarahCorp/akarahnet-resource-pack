@@ -1,0 +1,24 @@
+name: Auto Zip Source Code
+
+on:
+  push:
+    branches:
+      - main # Or your desired branch, e.g., master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create source code zip
+        run: |
+          zip -r source-code.zip . -x ".git/*" ".github/*"
+
+      - name: Upload zip artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-code-zip
+          path: source-code.zip
