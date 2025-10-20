@@ -1,0 +1,10 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "prefix": "item",
+            "source": "/item/"
+        }
+        
+    ]
+}

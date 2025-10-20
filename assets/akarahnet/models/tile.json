@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "akarahnet:item/tile"
+    },
+    "display": {
+        "gui": {
+            "scale": [1.15, 1.15, 1.15]
+        }
+    }
+}

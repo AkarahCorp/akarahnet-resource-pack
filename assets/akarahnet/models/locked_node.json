@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "akarahnet:item/locked_node"
+    },
+    "display": {
+        "gui": {
+            "scale": [1.15, 1.15, 1.15]
+        }
+    }
+}

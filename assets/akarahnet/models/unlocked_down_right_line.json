@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "akarahnet:item/unlocked_down_right_line"
+    },
+    "display": {
+        "gui": {
+            "scale": [1.15, 1.15, 1.15]
+        }
+    }
+}
