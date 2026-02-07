@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "akarahnet:item/locked_node"
+        "layer0": "akarahnet:item/ui/unlocked_node"
     },
     "display": {
         "gui": {

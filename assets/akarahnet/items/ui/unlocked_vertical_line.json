@@ -3,7 +3,7 @@
     "hand_animation_on_swap": true,
     "model": {
         "type": "minecraft:model",
-        "model": "akarahnet:locked_vertical_line",
+        "model": "akarahnet:ui/unlocked_vertical_line",
         "tints": [
             {
                 "type": "minecraft:custom_model_data",

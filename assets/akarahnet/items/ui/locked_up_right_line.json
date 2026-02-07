@@ -3,7 +3,7 @@
     "hand_animation_on_swap": true,
     "model": {
         "type": "minecraft:model",
-        "model": "akarahnet:tile",
+        "model": "akarahnet:ui/locked_up_right_line",
         "tints": [
             {
                 "type": "minecraft:custom_model_data",
