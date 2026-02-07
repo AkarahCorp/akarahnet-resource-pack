@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "akarahnet:item/locked_horizontal_line"
+        "layer0": "akarahnet:item/ui/locked_down_right_line"
     },
     "display": {
         "gui": {
