@@ -1,0 +1,8 @@
+{
+    "oversized_in_gui": false,
+    "hand_animation_on_swap": true,
+    "model": {
+        "type": "minecraft:model",
+        "model": "akarahnet:artifact/fishing/dinosaur"
+    }
+}
