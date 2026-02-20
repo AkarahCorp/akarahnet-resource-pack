@@ -3,6 +3,6 @@
     "hand_animation_on_swap": true,
     "model": {
         "type": "minecraft:model",
-        "model": "akarahnet:artifact/qxolotl"
+        "model": "akarahnet:artifact/fishing/battleship"
     }
 }
