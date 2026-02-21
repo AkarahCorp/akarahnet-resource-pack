@@ -3,7 +3,10 @@ name: Auto Zip Source Code
 on:
   push:
     branches:
-      - main # Or your desired branch, e.g., master
+      - main
+
+permissions:
+  contents: write   # required for deleting/creating releases
 
 jobs:
   build:
@@ -17,6 +20,29 @@ jobs:
         run: |
           zip -r source-code.zip . -x ".git/*" ".github/*"
 
+      # Delete all previous releases and their tags
+      - name: Delete previous releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          releases=$(gh release list --json tagName -q '.[].tagName')
+          for tag in $releases; do
+            gh release delete "$tag" --yes || true
+            git push origin --delete "$tag" || true
+          done
+
+      # Create new release tagged "latest"
+      - name: Create new release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git tag -f latest
+          git push -f origin latest
+          gh release create latest source-code.zip \
+            --title "Latest Build" \
+            --notes "Automated release from main branch."
+
+      # Optional: keep artifact upload
       - name: Upload zip artifact
         uses: actions/upload-artifact@v4
         with:
