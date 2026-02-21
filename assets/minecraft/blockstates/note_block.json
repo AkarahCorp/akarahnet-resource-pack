@@ -1,19 +1,29 @@
 {
   "variants": {
-    "instrument=snare,note=0": { 
+    "instrument=snare,note=0": [
+      { 
       "model": "minecraft:block/malachite/0"
-    },
-    "instrument=snare,note=1": { 
+      }
+    ],
+    "instrument=snare,note=1": [ 
+      { 
       "model": "minecraft:block/malachite/1"
-    },
-    "instrument=snare,note=2": { 
+      }
+    ],
+    "instrument=snare,note=2": [
+      { 
       "model": "minecraft:block/malachite/2"
-    },
-    "instrument=snare,note=3": { 
+      }
+    ],
+    "instrument=snare,note=3": [
+      { 
       "model": "minecraft:block/malachite/3"
-    },
-    "instrument=snare,note=4": { 
+      }
+    ],
+    "instrument=snare,note=4": [
+      { 
       "model": "minecraft:block/malachite/4"
-    }
+      }
+    ]
   }
 }
