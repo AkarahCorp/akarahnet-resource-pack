@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "akarahnet:item/gear/chainsaw_handle",
+        "layer1": "akarahnet:item/gear/chainsaw_blade"
+    }
+}

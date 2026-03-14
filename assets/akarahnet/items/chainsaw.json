@@ -3,6 +3,6 @@
     "hand_animation_on_swap": true,
     "model": {
         "type": "minecraft:model",
-        "model": "akarahnet:chainsaw"
+        "model": "akarahnet:gear/chainsaw"
     }
 }
