@@ -1,0 +1,51 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "ascent": -35,
+            "file": "akarahnet:hud/bars.png",
+            "height": 8,
+            "chars": [
+                "\u0021\u0030\u0040\u0000",
+                "\u0022\u0031\u0000\u0000",
+                "\u0000\u0000\u0000\u0000",
+                "\u0000\u0000\u0000\u0000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "ascent": -25,
+            "file": "akarahnet:hud/level_display.png",
+            "height": 18,
+            "chars": [
+                "\u0060"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "ascent": -32,
+            "file": "akarahnet:hud/heart_bar.png",
+            "height": 12,
+            "chars": [
+                "\u0061"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "ascent": -32,
+            "file": "akarahnet:hud/mana_bar.png",
+            "height": 12,
+            "chars": [
+                "\u0062"
+            ]
+        },
+        {
+            "type": "space",
+            "advances": {
+                "\u0050": -1,
+                "\u0051": 1,
+                "\u0052": 8
+            }
+        }
+    ]
+}
