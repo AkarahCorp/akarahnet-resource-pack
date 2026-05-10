@@ -1,6 +1,8 @@
 {
   "pack": {
     "description": "akarahnet resource pack",
-    "pack_format": 80
+    "pack_format": 80,
+    "min_format": 80,
+    "max_format": 80
   }
 }
