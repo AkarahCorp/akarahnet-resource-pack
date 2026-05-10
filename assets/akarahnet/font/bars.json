@@ -46,12 +46,15 @@
                 "\u0151": 1,
                 "\u0152": 8,
                 "\u0153": -4,
-                "\u0154": -5
+                "\u0154": -5,
+                "\u0155": -80,
+                "\u0156": -60,
+                "\u0157": -130
             }
         },
         {
             "type": "bitmap",
-            "ascent": -35,
+            "ascent": -36,
             "file": "akarahnet:hud/numbers.png",
             "height": 5,
             "chars": [
