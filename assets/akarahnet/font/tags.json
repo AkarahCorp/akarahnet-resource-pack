@@ -1,0 +1,52 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "akarahnet:tag/common.png",
+            "ascent": 7,
+            "chars": [
+                "\u0001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "akarahnet:tag/uncommon.png",
+            "ascent": 7,
+            "chars": [
+                "\u0002"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "akarahnet:tag/rare.png",
+            "ascent": 7,
+            "chars": [
+                "\u0003"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "akarahnet:tag/epic.png",
+            "ascent": 7,
+            "chars": [
+                "\u0004"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "akarahnet:tag/legendary.png",
+            "ascent": 7,
+            "chars": [
+                "\u0005"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "akarahnet:tag/elite.png",
+            "ascent": 7,
+            "chars": [
+                "\u0006"
+            ]
+        }
+    ]
+}
